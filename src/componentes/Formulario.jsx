@@ -15,6 +15,7 @@ const Formulario = () => {
         <button id="boton" class="font-DynaPuff bg-rosado text-blanco rounded-lg flex flex-row pr-3 pl-3 hover:text-rosado hover:bg-blanco">Send</button>
       </div>
     </div>
+    
   )
 }
 
