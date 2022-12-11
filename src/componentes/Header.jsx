@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 
-const Header = () => {
+export const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
 
   return (
-    <div id="header" class="flex flex-row text-center ">
-      <button id="burger" onClick={()=> setIsOpen(!isOpen)} class="font-DynaPuff text-blanco px-5 hover:text-rosado">Inicio</button>
-      <a href="#inicio" class="font-DynaPuff text-blanco px-5 hover:text-rosado">Inicio</a>
-      <a href="#perfil" class="font-DynaPuff text-blanco px-5 hover:text-rosado">Perfil</a>
-      <a href="#proyectos" class="font-DynaPuff text-blanco px-5 hover:text-rosado">Proyectos</a>
-      <a href="#formulario" class="font-DynaPuff text-blanco px-5 hover:text-rosado">Contacto</a>
+    <div id="header" className="flex flex-row text-center ">
+      <button id="burger" onClick={()=> setIsOpen(!isOpen)} className="font-DynaPuff text-blanco px-5 hover:text-rosado">Inicio</button>
+      <a href="#inicio" className="font-DynaPuff text-blanco px-5 hover:text-rosado">Inicio</a>
+      <a href="#perfil" className="font-DynaPuff text-blanco px-5 hover:text-rosado">Perfil</a>
+      <a href="#proyectos" className="font-DynaPuff text-blanco px-5 hover:text-rosado">Proyectos</a>
+      <a href="#formulario" className="font-DynaPuff text-blanco px-5 hover:text-rosado">Contacto</a>
       {/* {isOpen === true ? (
 
       )
@@ -22,4 +22,3 @@ const Header = () => {
   )
 }
 
-export default Header
