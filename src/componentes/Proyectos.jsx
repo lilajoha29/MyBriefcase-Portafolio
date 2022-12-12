@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Proyectos = () => {
     return (
-    <div id="proyectos" className="flex flex-col  py-52 px-6 ">
-        <h2 className="font-DynaPuff items-center text-rosado text-2xl flex flex-col text-center mb-4 sm:text-4xl ">Proyectos</h2>
+    <div id="MyWork" className="flex flex-col  py-52 px-6 ">
+        <h2 className="font-DynaPuff items-center text-rosado text-2xl flex flex-col text-center mb-4 sm:text-4xl ">My work</h2>
         <div className=" flex flex-col justify-around items-center lg:flex-row ">
             <div className=" flex flex-col rounded-lg w-60 h-44 p-auto my-4 sm:w-96 sm:h-52">
                 <img src="./img/calculadora.png" className=" w-60 h-44 rounded-lg sm:w-96 sm:h-52"></img>
