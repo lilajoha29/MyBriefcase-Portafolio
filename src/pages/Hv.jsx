@@ -9,8 +9,10 @@ export const Hv = () => {
     return (
     <div>
             <PresentacionHv />
+        <div className='sm:grid sm:grid-cols-2 '>    
             <ConocimientoHv/>
-            <PersonalHv/>
+            <PersonalHv />
+        </div>        
     </div>
     )
 }

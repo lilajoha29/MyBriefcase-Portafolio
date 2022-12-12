@@ -14,7 +14,7 @@ export function App() {
 
   return (
     <>
-      <Hv/>
+      <Home/>
     </>
     
   )
