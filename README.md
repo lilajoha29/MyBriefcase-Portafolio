@@ -40,7 +40,7 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 
 ## Despliegue 📦 
  
-El despliege esta apto para ejecutarse 
+El despliege esta apto para ejecutarse https://lilycastillo-portafolio.netlify.app/
 
  
 ## Authors✒️ 
