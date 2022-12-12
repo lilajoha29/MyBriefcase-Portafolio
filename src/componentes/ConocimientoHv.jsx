@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ConocimientoHv = () => {
     return (
-    <div id="conocimiento" className="flex flex-col m-auto sm:mb-44 ">
+    <div  className="flex flex-col m-auto sm:mb-44 ">
         <div className="blur h-2 my-10 bg-blanco"></div>    
         <div className='py-5 sm:px-10 lg:px-5 '>
             <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col  m-auto pb-3 lg:text-3xl ">Education</h2>

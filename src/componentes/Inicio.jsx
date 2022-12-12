@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Inicio = () => {
   return (
-    <div id="inicio" className="relative flex flex-col items-center lg:flex-row lg:py-20 lg:right-24">
+    <div id="Home" className="relative flex flex-col items-center my-20 lg:flex-row lg:py-20 lg:right-24">
       <div className="absolute inset-1 bg-rosado  rounded-full blur h-80 mt-5 m-auto sm:w-80 sm:h-80 lg:-left-72 lg:mt-20 lg:py-28 "></div>
         <img src="./img/logoW.svg" className="relative w-96 pb-100 lg:left-80"></img>
       <div className="pr-4 lg:pl-96  ">
