@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ConocimientoHv = () => {
+export const SchoolingHv = () => {
     return (
     <div  className="flex flex-col m-auto sm:mb-44 ">
         <div className="blur h-2 my-10 bg-blanco"></div>    

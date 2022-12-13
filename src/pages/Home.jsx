@@ -1,19 +1,19 @@
 import React from 'react'
 import { Header } from '../componentes/Header'
-import {Inicio} from '../componentes/Inicio'
-import { Perfil } from '../componentes/Perfil'
-import { Proyectos } from '../componentes/Proyectos'
-import {Formulario} from '../componentes/Formulario'
+import {Initiation} from '../componentes/Initiation'
+import { Profile } from '../componentes/Profile'
+import { Proyects } from '../componentes/Proyects'
+import {Form} from '../componentes/Form'
 import {Footer} from '../componentes/Footer'
 
 export const Home = () => {
   return (
   <div>
     <Header/>
-    <Inicio />
-    <Perfil />
-    <Proyectos />
-    {/* <Formulario /> */}
+    <Initiation />
+    <Profile />
+    <Proyects />
+    {/* <Form /> */}
     <Footer /> 
   </div>
   )

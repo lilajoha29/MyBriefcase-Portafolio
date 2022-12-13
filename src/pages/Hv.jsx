@@ -1,19 +1,19 @@
 import React from 'react'
-import { PresentacionHv } from '../componentes/PresentacionHv'
-import { PersonalHv } from '../componentes/PersonalHv'
-import { ConocimientoHv } from '../componentes/ConocimientoHv'
-import { BArterHv } from '../componentes/BArterHv'
+import { PresentationsHv } from '../componentes/PresentationsHv'
+import { MyHv } from '../componentes/MyHv'
+import { SchoolingHv } from '../componentes/SchoolingHv'
+import { BArferHv } from '../componentes/BArferHv'
 
 
 
 export const Hv = () => {
     return (
     <div>
-            <BArterHv/>
-            <PresentacionHv />
+            <BArferHv/>
+            <PresentationsHv />
         <div className='sm:grid sm:grid-cols-2 '>    
-            <ConocimientoHv/>
-            <PersonalHv />
+            <SchoolingHv/>
+            <MyHv />
         </div>        
     </div>
     )

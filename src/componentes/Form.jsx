@@ -1,9 +1,9 @@
 import React from 'react'
 // import { Form } from 'react-router-dom'
 
-export const Formulario = () => {
+export const Form = () => {
   return (
-    <div id="formulario" className="py-52">
+    <div id="Form" className="py-52">
       <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col text-center sm:text-4xl">¿Quieres trabajar conmigo?</h2>
       <div className="bg-gray-500 p-3 rounded-xl m-auto w-10/12">
         <p className="font-DynaPuff text-black flex flex-col text-center pb-3 sm:text-xl">Te invito a enviarme un mensaje y nos ponemos en contacto</p>

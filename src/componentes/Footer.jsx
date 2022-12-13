@@ -1,4 +1,10 @@
 import React from 'react'
+import  LinkedinIcon  from '../assets/img/linkedin-circled.svg'
+import  GithubIcon  from '../assets/img/github.svg'
+import  WhatsappIcon  from '../assets/img/whatsapp.svg'
+import  DiscordIcon  from '../assets/img/discord.svg'
+import  GmailIcon  from '../assets/img/gmail-logo.svg'
+
 
 export const Footer = () => {
   return (
@@ -14,21 +20,21 @@ export const Footer = () => {
           <a href="#Home" className="font-DynaPuff text-blanco hover:text-rosado lg:text-lg">Home</a>
           <a href="#Profile" className="font-DynaPuff text-blanco hover:text-rosado lg:text-lg">Profile</a>
           <a href="#MyWork" className="font-DynaPuff text-blanco hover:text-rosado lg:text-lg">My work</a>
-          {/* <a href="#formulario" className="font-DynaPuff text-blanco hover:text-rosado lg:text-lg">Formulario</a> */}
+          {/* <a href="#Form" className="font-DynaPuff text-blanco hover:text-rosado lg:text-lg">Formulario</a> */}
         </div>
         <div className="flex flex-col text-center m-auto pb-7">
           <h2 className="font-DynaPuff text-rosado text-lg lg:text-xl">Contact me</h2>
           <div className="flex text-center items-center flex-col m-auto">
             <a href="https://www.linkedin.com/in/lily-johana-castillo-forero-a2582667/" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src="./img/linkedin-circled.svg"></img> Lily Johana Castillo Forero</a>
+                src={LinkedinIcon}></img> Lily Johana Castillo Forero</a>
             <a href="https://github.com/lilajoha29" className="font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6 "
-                src="./img/github.svg"></img>lilajoha29</a>
+                src={GithubIcon}></img>lilajoha29</a>
             <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src="./img/whatsapp.svg"></img>+57 3103186284</a>
+                src={WhatsappIcon}></img>+57 3103186284</a>
             <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src="./img/discord.svg"></img>Lily Johana#3761</a>
+                src={DiscordIcon}></img>Lily Johana#3761</a>
             <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src="./img/gmail-logo.svg"></img>lilajoha2907@gmail.com</a>
+                src={GmailIcon}></img>lilajoha2907@gmail.com</a>
           </div>
         </div>
       </div> 
