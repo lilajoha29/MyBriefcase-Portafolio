@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Logo from '../assets/img/logoW.svg'
 
-export const Inicio = () => {
+
+export const Initiation = () => {
   return (
     <div id="Home" className="relative flex flex-col items-center my-20 lg:flex-row lg:py-20 lg:right-24">
-      <div className="absolute inset-1 bg-rosado  rounded-full blur h-80 mt-5 m-auto sm:w-80 sm:h-80 lg:-left-72 lg:mt-20 lg:py-28 "></div>
-        <img src="./img/logoW.svg" className="relative w-96 pb-100 lg:left-80"></img>
+      <div className="absolute inset-1 bg-rosado  rounded-full blur h-80 mt-5 m-auto sm:w-80 sm:h-80 lg:-left-72 lg:mt-24 lg:py-28 "></div>
+        <img src={Logo} className="relative w-96 pb-100 lg:left-80"></img>
       <div className="pr-4 lg:pl-96  ">
         <h2 className="font-DynaPuff text-blanco text-lg sm:text-4xl">¡Hello, Welcome! I'am</h2>
         <h1 className="font-DynaPuff text-rosado text-2xl sm:text-5xl">Lily Johana Castillo Forero</h1>
-      
-      {/* <div className="pl-32 pb-52 lg:pt-96"> */}
-        {/* <link to="/hv"> */}
+      <Link to="/hv">
           <button id="boton" className="font-DynaPuff bg-rosado text-blanco rounded-lg flex flex-row pr-3 pl-3 hover:text-rosado hover:bg-blanco sm:text-xl sm:mt-2 lg:w-36 lg:justify-center lg:h-8 lg:items-center">from my
             <span className="flex items-center space-x-5">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
@@ -20,7 +21,7 @@ export const Inicio = () => {
             </svg>
           </span>
           </button>
-        {/* </link>   */}
+        </Link>  
       </div>
     </div>
   )
