@@ -7,7 +7,7 @@ export const SchoolingHv = () => {
         <div className='py-5 sm:px-10 lg:px-5 '>
             <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col  m-auto pb-3 lg:text-3xl ">Education</h2>
             <div className=' py-3 sm:py-5'>
-                <p className="font-DynaPuff text-blanco  flex flex-col text-left lg:text-lg ">Profecional en Mercadeo y Publicidad</p>
+                <p className="font-DynaPuff text-blanco  flex flex-col text-left lg:text-lg ">Profesional en Mercadeo y Publicidad</p>
                 <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right ">Politécnico Gran Colombiano 2015</p>
             </div>
             <div className=' py-3 sm:py-5'>
