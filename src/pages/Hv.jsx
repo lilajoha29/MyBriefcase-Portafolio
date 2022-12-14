@@ -14,6 +14,9 @@ export const Hv = () => {
         <div className='sm:grid sm:grid-cols-2 '>    
             <SchoolingHv/>
             <MyHv />
+        </div> 
+        <div className='lg:-mt-44 md:-mt-40'>    
+            <BArferHv />  
         </div>        
     </div>
     )
