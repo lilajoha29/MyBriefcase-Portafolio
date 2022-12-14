@@ -3,7 +3,6 @@ import { Header } from '../componentes/Header'
 import {Initiation} from '../componentes/Initiation'
 import { Profile } from '../componentes/Profile'
 import { Proyects } from '../componentes/Proyects'
-import {Form} from '../componentes/Form'
 import {Footer} from '../componentes/Footer'
 
 export const Home = () => {
@@ -13,7 +12,6 @@ export const Home = () => {
     <Initiation />
     <Profile />
     <Proyects />
-    {/* <Form /> */}
     <Footer /> 
   </div>
   )
