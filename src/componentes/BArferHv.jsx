@@ -6,7 +6,7 @@ export const BArferHv = () => {
     return (
         <div className=''>
             <Link to="/">
-                <button id="boton" className=" font-DynaPuff rounded-lg flex flex-row text-3xl text-rosado hover:text-blanco sm:text-xl sm:mt-2 lg:w-36 lg:justify-center lg:h-8 lg:items-center ">
+                <button id="boton" className=" font-DynaPuff rounded-lg flex flex-row text-5xl text-rosado hover:text-blanco sm:text-xl sm:mt-2 lg:w-36 lg:justify-center lg:h-8 lg:items-center ">
                     <BsFillArrowLeftCircleFill/>                 
                 </button>
             </Link>  
