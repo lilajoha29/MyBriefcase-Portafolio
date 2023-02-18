@@ -3,7 +3,7 @@ import { PresentationsHv } from '../componentes/PresentationsHv'
 import { MyHv } from '../componentes/MyHv'
 import { SchoolingHv } from '../componentes/SchoolingHv'
 import { BArferHv } from '../componentes/BArferHv'
-
+import { Footer } from '../componentes/Footer';
 
 
 export const Hv = () => {
@@ -12,10 +12,11 @@ export const Hv = () => {
             <BArferHv/>
             <PresentationsHv />
         <div className='sm:grid sm:grid-cols-2 '>    
-            <SchoolingHv/>
             <MyHv />
+            <SchoolingHv/>
         </div> 
-        <div className='lg:-mt-44 md:-mt-40'>    
+            <div className='lg:-mt-44 md:-mt-40'>    
+            <Footer/>  
             <BArferHv />  
         </div>        
     </div>

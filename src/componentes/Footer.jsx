@@ -1,10 +1,5 @@
 import React from 'react'
-import  LinkedinIcon  from '../assets/img/linkedin-circled.svg'
-import  GithubIcon  from '../assets/img/github.svg'
-import  WhatsappIcon  from '../assets/img/whatsapp.svg'
-import  DiscordIcon  from '../assets/img/discord.svg'
-import  GmailIcon  from '../assets/img/gmail-logo.svg'
-
+import { SiLinkedin, SiGithub, SiWhatsapp, SiDiscord, SiGmail } from "react-icons/si";
 
 export const Footer = () => {
   return (
@@ -25,18 +20,13 @@ export const Footer = () => {
         <div className="flex flex-col text-center m-auto pb-7">
           <h2 className="font-DynaPuff text-rosado text-lg lg:text-xl">Contact me</h2>
           <div className="flex text-center items-center flex-col m-auto">
-            <a href="https://www.linkedin.com/in/lily-johana-castillo-forero-a2582667/" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src={LinkedinIcon}></img> Lily Johana Castillo Forero</a>
-            <a href="https://github.com/lilajoha29" className="font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6 "
-                src={GithubIcon}></img>lilajoha29</a>
-            <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src={WhatsappIcon}></img>+57 3103186284</a>
-            <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src={DiscordIcon}></img>Lily Johana#3761</a>
-            <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                src={GmailIcon}></img>lilajoha2907@gmail.com</a>
+            <a href="https://www.linkedin.com/in/lily-johana-castillo-forero-a2582667/" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiLinkedin className="w-5 lg:w-6  m-1" /> Lily Johana Castillo Forero</a>
+            <a href="https://github.com/lilajoha29" className="font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiGithub className="w-5 lg:w-6 m-1" />lilajoha29</a>
+            <a href="https://api.whatsapp.com/send?phone=573103186284&text=mensaje" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiWhatsapp className="w-5 lg:w-6 m-1" />+57 3103186284</a>
+            <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiDiscord className="m-1" /> Lily Johana#3761</a>
+            <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiGmail className='m-1'/> lilajoha2907@gmail.com</a>
           </div>
-        </div>
+        </div>    
       </div> 
     </footer>
   )

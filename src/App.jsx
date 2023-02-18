@@ -10,13 +10,13 @@ export function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className="bg-default">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='hv' element={<Hv />} />
       </Routes>
       {/* <Home/> */}
-    </>
+    </div>
     
   )
 }

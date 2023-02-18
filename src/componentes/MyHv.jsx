@@ -1,9 +1,5 @@
 import React from 'react'
-import  LinkedinIcon  from '../assets/img/linkedin-circled.svg'
-import  GithubIcon  from '../assets/img/github.svg'
-import  WhatsappIcon  from '../assets/img/whatsapp.svg'
-import  DiscordIcon  from '../assets/img/discord.svg'
-import  GmailIcon  from '../assets/img/gmail-logo.svg'
+
 
 export const MyHv = () => {
     return (
@@ -12,27 +8,13 @@ export const MyHv = () => {
             <div className='flex flex-col'>
                 <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col  m-auto pb-3 sm:pt-4 lg:text-3xl">Profile</h2>
             <div id="perfil" className=" flex flex-col items-center  ">
-                <p className="font-DynaPuff text-blanco  flex flex-col text-left sm:px-10 lg:text-lg" >I am a web developer with knowledge in full stack, Scrum methodology, Marketing and Advertising. I am a hard worker with experience in customer service and good teamwork skills, always helpful and polite, but most importantly, I am willing to constantly learn new skills. I'm so excited for us to work together, so don't hesitate to contact me. Hard worker and I have good teamwork skills. I would love to work together, so don't hesitate to contact me.</p>
+                <p className="font-DynaPuff text-blanco  flex flex-col text-left sm:px-10 lg:text-lg" >I am junior Full stack web developer with knowledge in HTML, CSS, ReactJS, JavaScript and Scrum methodology. My professional background is about Marketing and advertising, with management of Insight, target and market research, which allows to better develop a UX. I have skills in leadership, assertive communication, conflict resolution and teamwork. I have participated volunteer with la Red Nacional de Jóvenes de Ambiente in favor of encouraging environmental care.</p>
             </div>
             <div id="perfil" className=" flex flex-col items-center py-10">
-                <p className="font-DynaPuff text-blanco  flex flex-col text-left sm:px-10 lg:text-lg" >Soy una desarrolladora web con conocimientos en full stack,  metodología Scrum y en Mercadeo y Publicidad. Soy una gran trabajadora con experiencia en servicio al cliente y tengo buenas habilidades de trabajo en equipo , siempre amable y educada, pero lo que es más importante, estoy dispuesta a aprender constantemente nuevas habilidades. Estoy tan entusiasmada por trabajar juntos, entonces no dude en ponerse en contacto conmigo.</p>
+                <p className="font-DynaPuff text-blanco  flex flex-col text-left sm:px-10 lg:text-lg" >Soy desarrolladora web Full Stack junior con conocimientos en HTML, CSS, ReactJS, JavaScript y metodología Scrum. Profesional del Mercadeo y Publicidad, con manejo de target, Insight e investigación de mercado, lo cual permite desarrollar mejor un UX. Tengo habilidades en liderazgo, comunicación asertiva, solución de conflictos y trabajo en equipo. Participe de forma voluntaria con la Red Nacional de Jóvenes de Ambiente a favor incentivar el cuidado ambiental.</p>
             </div>
         </div>
-        <div className="flex flex-col text-center m-auto pb-7 lg:mt-16 ">
-            <h2 className="font-DynaPuff text-rosado text-2xl py-5 lg:text-3xl">Contact me</h2>
-            <div className="flex text-center items-center flex-col m-auto">
-                <a href="https://www.linkedin.com/in/lily-johana-castillo-forero-a2582667/" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                    src={LinkedinIcon}></img> Lily Johana Castillo Forero</a>
-                <a href="https://github.com/lilajoha29" className="font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6 "
-                    src={GithubIcon}></img>lilajoha29</a>
-                <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                    src={WhatsappIcon}></img>+57 3103186284</a>
-                <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                    src={DiscordIcon}></img>Lily Johana#3761</a>
-                <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><img className="w-5 lg:w-6"
-                    src={GmailIcon}></img>lilajoha2907@gmail.com</a>
-            </div>    
-        </div>    
+        
     </div>    
     )
 }
