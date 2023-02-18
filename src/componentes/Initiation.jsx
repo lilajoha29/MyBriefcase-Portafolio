@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../assets/img/logoW.svg'
 import gif from '../assets/img/logogif.gif'
 
 export const Initiation = () => {
   return (
     <div id="Home" className="relative flex flex-col items-center my-20 lg:flex-row  lg:right-24">
-        {/* <div className="absolute inset-1 bg-rosado  rounded-full blur h-80 mt-4 m-auto sm:w-80 sm:h-80 lg:h-72 lg:w-72 lg:-left-72 lg:mt-22 lg:py-28 md:w-96 md:h-96"></div>
-        <img src={Logo} className="relative w-96 pb-100 lg:left-80"></img> */}
       <div className="">
         <img src={gif} className=" w-96  rounded-full lg:ml-80 relative"></img>
         <Link to="/hv" className='relative -top-10 left-44 lg:right-28 lg:top-20 '>
