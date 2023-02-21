@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <div id="header" className="flex flex-row text-center  ">
       <button id="burger" onClick={() => setIsOpen(!isOpen)} className="font-DynaPuff text-blanco  hover:text-rosado">
-        <CgMenuRound class="w-12 h-12 fixed" />
+        <CgMenuRound className="w-12 h-12 fixed" />
       </button>
       
       
