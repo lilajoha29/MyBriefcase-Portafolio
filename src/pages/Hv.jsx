@@ -1,14 +1,14 @@
 import React from 'react'
-import { PresentationsHv } from '../componentes/PresentationsHv'
-import { MyHv } from '../componentes/MyHv'
-import { SchoolingHv } from '../componentes/SchoolingHv'
-import { BArferHv } from '../componentes/BArferHv'
+import { PresentationsHv } from '../componentes/Hv/PresentationsHv'
+import { MyHv } from '../componentes/Hv/MyHv'
+import { SchoolingHv } from '../componentes/Hv/SchoolingHv'
+import { BArferHv } from '../componentes/Hv/BArferHv'
 import { Footer } from '../componentes/Footer';
 
 
 export const Hv = () => {
     return (
-    <div>
+    <div className='m-4'>
             <BArferHv/>
             <PresentationsHv />
         <div className='sm:grid sm:grid-cols-2 '>    

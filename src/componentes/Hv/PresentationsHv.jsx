@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/img/logoW.png'
+import Logo from '../../assets/img/logoW.png'
 
 export const PresentationsHv = () => {
     return (

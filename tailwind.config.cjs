@@ -17,7 +17,8 @@ module.exports = {
         DynaPuff: ['"DynaPuff","Comic Sans MS"']
       },
       backgroundImage: {
-        'default': "url('./src/assets/img/fondo.jpg')"
+        'default': "url('./src/assets/img/fondo.jpg')",
+        'gif': "url('./src/assets/img/logogif.gif')"
       }
     },
   },
