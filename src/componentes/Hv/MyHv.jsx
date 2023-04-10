@@ -1,13 +1,12 @@
 import React from 'react'
-import {ImUser} from "react-icons/im";
-
+import {GiCowled} from "react-icons/gi";
 
 export const MyHv = () => {
     return (
     <div> 
         <hr className=" border-1 border-blanco rounded w-full max-w-full flex justify-center items-center md:col-span-2" />   
             <div className='flex flex-col py-3'>
-                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl">Perfil <ImUser className='m-1' /></h2>
+                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl">Perfil <GiCowled className='m-1 animate-pulse hover:animate-ping' /></h2>
             <div id="perfil" className=" flex flex-col items-center ">
                 <p className="font-DynaPuff text-blanco  flex flex-col text-left sm:px-10 lg:text-lg" >Soy desarrolladora web Full Stack junior con conocimientos en HTML, CSS, ReactJS, JavaScript y metodología Scrum. Profesional del Mercadeo y Publicidad, con manejo de target, Insight e investigación de mercado, lo cual permite desarrollar mejor un UX. Tengo habilidades en liderazgo, comunicación asertiva, solución de conflictos y trabajo en equipo. Participe de forma voluntaria con la Red Nacional de Jóvenes de Ambiente a favor incentivar el cuidado ambiental.</p>
             </div>

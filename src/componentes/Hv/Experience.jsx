@@ -1,12 +1,13 @@
-import React from 'react'
-import {ImClipboard} from "react-icons/im";
+import React from 'react';
+import {GiDiplodocus} from "react-icons/gi";
+
 
 export const Experience = () => {
   return (
     <div>
         <hr className=" border-1 border-blanco rounded w-full max-w-full flex justify-center items-center md:col-span-2" /> 
         <div className='py-5  '>
-                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl ">Experiencia <ImClipboard className='m-1'/></h2>
+                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl ">Experiencia <GiDiplodocus className='m-1 animate-pulse hover:animate-ping'/></h2>
             <div className='sm:px-10'>    
 
                 <div className=' py-3 sm:py-5'>

@@ -9,7 +9,7 @@ export const Initiation = () => {
       <div className="relative z-20 w-96 rounded-full px-2 md:justify-self-end ">
         <img src={gif} className=" relative z-20 w-96 rounded-full "/>
         <Link to="/hv" className='  '>
-          <button id="boton" className=" absolute right-8 bottom-5 z-30 font-DynaPuff py-1 px-2 bg-rosado text-blanco text-xl rounded-lg flex flex-row hover:text-rosado hover:bg-blanco shadow-blanco/50 shadow-md">Resum <ImWink2 className=" animate-bounce text-ms ml-1 mt-1 text-blanco hover:text-rosado"/>
+          <button id="boton" className=" absolute right-8 bottom-5 z-30 font-DynaPuff py-1 px-2 bg-rosado text-blanco text-xl rounded-lg flex flex-row hover:text-rosado hover:bg-blanco shadow-blanco/50 shadow-md">Resume o CV <ImWink2 className=" animate-bounce text-ms ml-1 mt-1 text-blanco hover:text-rosado"/>
           </button>
         </Link>  
       </div>

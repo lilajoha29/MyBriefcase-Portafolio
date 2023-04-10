@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import { BsArrowLeftShort } from "react-icons/bs";
+import logo from '../../assets/img/logoW.png'
+
 
 export const BArferHv = () => {
     return (
         <div className=''>
-            <Link to="/">
-                <button id="boton" className=" font-DynaPuff rounded-lg flex flex-row text-5xl text-rosado hover:text-blanco sm:text-xl sm:mt-2 lg:w-36 lg:justify-center lg:h-8 lg:items-center ">
-                    <BsFillArrowLeftCircleFill/>                 
-                </button>
+            <Link to="/" className=' w-fit font-DynaPuff rounded-2xl flex flex-row text-4xl text-negro bg-rosado hover:text-blanco '>
+                    <BsArrowLeftShort className='mt-2'/>
+                    <img src={logo} className='w-12 h-12 rounded-xl' ></img>
             </Link>  
         </div>
     )

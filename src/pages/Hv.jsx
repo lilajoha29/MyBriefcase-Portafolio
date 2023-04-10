@@ -10,7 +10,7 @@ import { Skills } from '../componentes/Hv/Skills'
 
 export const Hv = () => {
     return (
-    <div className='m-4 mx-5'>
+    <div className='p-2 m-5 bg-blanco/10 rounded-3xl'>
             <BArferHv/>
             <PresentationsHv />
         <div className='md:grid md:grid-cols-3 '>    
