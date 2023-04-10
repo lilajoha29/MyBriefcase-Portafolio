@@ -3,7 +3,7 @@ import { SiLinkedin, SiGithub, SiWhatsapp, SiDiscord, SiGmail } from "react-icon
 
 export const Footer = () => {
   return (
-    <footer className='' >
+    <footer className=' bottom-0' >
       <div className=" bg-rosado  blur h-2 m-auto mb-8 lg:flex"></div>
       <div className=' flex flex-col sm:grid sm:grid-cols-5 sm:justify-items-center '> 
         <div className="flex flex-col text-center m-auto pt-5 justify-center items-center sm:col-span-2 ">

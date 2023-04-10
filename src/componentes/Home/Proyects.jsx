@@ -6,7 +6,6 @@ import CasaHormiga from '../../assets/img/casaHormiga.png'
 import SabujCha from '../../assets/img/sabujsha.png'
 import Programate from '../../assets/img/ProgramateSchool.png'
 import { SiGithub } from "react-icons/si";
-import { FiMonitor } from "react-icons/fi";
 import {ImSphere} from "react-icons/im";
 
 

@@ -4,18 +4,26 @@ import { MyHv } from '../componentes/Hv/MyHv'
 import { SchoolingHv } from '../componentes/Hv/SchoolingHv'
 import { BArferHv } from '../componentes/Hv/BArferHv'
 import { Footer } from '../componentes/Footer';
+import { Experience } from '../componentes/Hv/Experience'
+import { Skills } from '../componentes/Hv/Skills'
 
 
 export const Hv = () => {
     return (
-    <div className='m-4'>
+    <div className='m-4 mx-5'>
             <BArferHv/>
             <PresentationsHv />
-        <div className='sm:grid sm:grid-cols-2 '>    
-            <MyHv />
-            <SchoolingHv/>
+        <div className='md:grid md:grid-cols-3 '>    
+            <div className='md:col-span-2 md:border-r-2 md:border-blanco md:mb-16'>
+                <MyHv />
+                <SchoolingHv/>
+                <Experience />
+            </div>
+            <div>
+                <Skills />
+            </div>
         </div> 
-            <div className='lg:-mt-44 md:-mt-40'>    
+            <div className=''>    
             <Footer/>  
             <BArferHv />  
         </div>        

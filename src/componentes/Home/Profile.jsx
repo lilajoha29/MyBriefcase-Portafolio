@@ -5,7 +5,7 @@ export const Profile = () => {
   return (
     <div id="Profile" className="bg-rosado opacity-60 grid grid-cols-3 items-center shadow-lg shadow-blanco rounded-lg px-3 -mt-5 md:mx-16">
       <p className="font-DynaPuff text-zinc-900 flex flex-col text-center p-4 sm:text-xl lg:text-2xl col-span-2">Soy desarrolladora web Full Stack junior con conocimientos en HTML, CSS, ReactJS, JavaScript, MongoDB y metodología Scrum y tengo ganas de contribuir con mi conocimiento y de aprender más en el proceso.</p>
-
+      <img src="https://media.giphy.com/media/paTz7UZbPfTZFRYnnB/giphy.gif" className='w-32'></img>
       <div className="flex flex-col gap-3 p-6 items-center sm:my-5 ">
         <SiHtml5 className=" animate-pulse flex flex-row lg:h-16 text-5xl hover:text-blanco" />
         <SiCss3 className=" animate-pulse flex flex-row lg:h-16 text-5xl hover:text-blanco" />

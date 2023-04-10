@@ -1,13 +1,15 @@
 import React from 'react'
+import {ImCogs} from "react-icons/im";
+
 
 export const SchoolingHv = () => {
     return (
-    <div  className="flex flex-col m-auto sm:mb-44 ">
-        <div className="blur h-2 my-10 bg-blanco"></div>    
-        <div className='py-5 sm:px-10 lg:px-5 '>
-                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col  m-auto pb-3 lg:text-3xl ">Education</h2>
-                
-            <div className=' py-3 sm:py-5'>
+    <div  className="flex flex-col ">
+        <hr className=" border-1 border-blanco rounded w-full max-w-full flex justify-center items-center md:col-span-2" />  
+        <div className='py-3  '>
+                <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl">Education <ImCogs className='m-1'/></h2>
+            <div className='sm:px-10'>    
+            <div className=' py-3 sm:py-5 '>
                 <p className="font-DynaPuff text-pastel flex flex-col text-left lg:text-lg">Bootcamp Full Stack </p>
                 <p className="font-DynaPuff text-blanco text-sm flex flex-col text-left lg:text-lg">Desarrollo Web</p>
                 <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right ">Educamas - Simplone</p>
@@ -30,24 +32,7 @@ export const SchoolingHv = () => {
                 <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right ">Politécnico Gran Colombiano</p>
                 <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right ">Terminado en el 2015</p>
             </div>
-        </div> 
-        <div className='m-5 pb-10 sm:pt-20'>
-            <h2 className="font-DynaPuff text-rosado text-2xl flex flex-col  m-auto pb-3 lg:text-3xl">Skills and tools</h2>
-            <div className='grid grid-cols-3 '>
-                <p className='font-DynaPuff text-blanco' >HTML</p>
-                <p className='font-DynaPuff text-blanco' >CSS</p>
-                <p className='font-DynaPuff text-blanco'>JavaScript</p>
-                <p className='font-DynaPuff text-blanco col-span-2'>Tailwind-CSS</p>
-                <p className='font-DynaPuff text-blanco'>GitHub</p>
-                <p className='font-DynaPuff text-blanco'>Trello</p>
-                <p className='font-DynaPuff text-blanco'>Figma</p>
-                <p className='font-DynaPuff text-blanco'>NodeJS</p>
-                <p className='font-DynaPuff text-blanco'>ReactJS</p>
-                <p className='font-DynaPuff text-blanco'>MongoDB</p>
-                {/* <p className='font-DynaPuff text-blanco'>Express</p> */}
-                <p className='font-DynaPuff text-blanco'>MySQL</p> 
-                        
-            </div>    
+        </div>
         </div>
     </div>
     )
