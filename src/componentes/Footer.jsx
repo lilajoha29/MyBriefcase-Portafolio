@@ -20,7 +20,7 @@ export const Footer = () => {
           <div className="flex text-center items-center flex-row gap-3 m-auto">
             <a href="https://www.linkedin.com/in/lily-johana-castillo-forero-a2582667/" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado "><SiLinkedin className="text-2xl m-1 animate-pulse" /></a>
             <a href="https://github.com/lilajoha29" className="font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiGithub className="text-2xl m-1 animate-pulse" /></a>
-            <a href="https://api.whatsapp.com/send?phone=573103186284&text=mensaje" target="_blank" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiWhatsapp className="text-2xl m-1 animate-pulse" /></a>
+            <a href="https://wa.me/573103186284?text=¡Hola%20Lily!%20Me%20gustaría%20contactarte%20y%20ampliar%20la%20información%20acerca%20de%20tu%20portafolio,%20espero%20tu%20respuesta,%20¡gracias!" target="_blank" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiWhatsapp className="text-2xl m-1 animate-pulse" /></a>
             <a href="" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiDiscord className="text-2xl m-1 animate-pulse" /></a>
             <a href="mailto:lilajoha2907@gmail.com" className="lg:text-lg font-DynaPuff text-blanco flex text-center hover:text-rosado"><SiGmail className='text-2xl m-1 animate-pulse'/></a>
           </div>

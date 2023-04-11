@@ -3,7 +3,7 @@ import { SiMongodb, SiHtml5, SiTailwindcss, SiCss3, SiNodedotjs, SiReact } from 
 
 export const Profile = () => {
   return (
-    <div id="Profile" className="bg-rosado/60 grid grid-cols-3 items-center shadow-lg shadow-blanco rounded-lg px-3 -mt-5 md:mx-16">
+    <div id="Profile" className="bg-rosado/70 grid grid-cols-3 items-center shadow-2xl shadow-blanco rounded-lg px-3 -mt-5 md:mx-16">
       <div className='col-span-2'>
         <p className="font-DynaPuff text-zinc-900 flex flex-col text-center p-4 sm:text-xl lg:text-2xl ">Soy desarrolladora web Full Stack junior con conocimientos en HTML, CSS, ReactJS, JavaScript, MongoDB y metodología Scrum y tengo ganas de contribuir con mi conocimiento y de aprender más en el proceso.</p>
       </div>
