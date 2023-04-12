@@ -8,14 +8,15 @@ export const Form = () => {
         const name = document.getElementById('Nombre').value;
         const email = document.getElementById('Email').value;
         const message = document.getElementById('Mensaje').value;
-        window.open(`https://wa.me/573103186284/?text=Asunto:%20${subject},%20Hola!%2C%20soy%20${name}%2C%20vi%20la%20pagina%20web%20y%20mi%20mensaje%20es%3A%20${message}.%0A%0AGracias%20y%20quedo%20pendiente%20de%20su%20respuesta.%0A%0AMi%20Correo%20Electr%C3%B3nico%20es%3A%20${email}`, '_blank');
-        Swal.fire({
-            title: '¡Gracias!',
-            text: '¡Nos pondremos en contacto!',
-            showConfirmButton: true,
-            confirmButtonText: "¡Genial!",
-            confirmButtonColor: '#59b528',
-        })
+                window.open(`https://wa.me/573103186284/?text=%20¡Hola!%2C%20soy%20${name}%2C%20vi%20la%20pagina%20web%20y%20mi%20mensaje%20es%3A%20${message}.%0A%0AGracias%20y%20quedo%20pendiente%20de%20su%20respuesta.%0A%0AMi%20Correo%20Electr%C3%B3nico%20es%3A%20${email}`, '_blank');
+        // Swal.fire({
+        //     title: '¡Gracias!',
+        //     text: '¡Nos pondremos en contacto!',
+        //     showConfirmButton: true,
+        //     confirmButtonText: "¡Genial!",
+        //     confirmButtonColor: '#59b528',
+        // })
+        
     }
 
     return (

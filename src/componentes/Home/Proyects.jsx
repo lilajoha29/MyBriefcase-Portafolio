@@ -61,7 +61,7 @@ export const Proyects = () => {
             <div className="flex flex-col rounded-lg bg-blanco w-72  justify-center m-10  md:justify-self-center shadow-2xl shadow-rosado">
                 <img src={Programate} className="w-full rounded-2xl p-2 pb-3"></img>
                 <div className="rounded-lg flex justify-around mb-2">
-                    <a href="https://github.com/lilajoha29/casahormigahttps://github.com/programateacademy/PROGRAMATE-SCHOOL-FRONT.git"><SiGithub className="w-6 h-6 sm:h-8 text-negro hover:text-rosado animate-pulse hover:animate-ping" /></a>
+                    <a href="https://github.com/programateacademy/PROGRAMATE-SCHOOL-FRONT"><SiGithub className="w-6 h-6 sm:h-8 text-negro hover:text-rosado animate-pulse hover:animate-ping" /></a>
                     <p className="font-DynaPuff rounded-lg text-negro flex justify-center sm:text-lg lg:justify-self-center ">Programate School</p>
                     <a href="https://programate-school-front.vercel.app/"><ImSphere className="w-6 h-6 sm:h-8 text-negro hover:text-rosado animate-pulse hover:animate-ping" /></a>
                 </div>
