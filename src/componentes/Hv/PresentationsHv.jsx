@@ -11,7 +11,7 @@ export const PresentationsHv = () => {
                         <h2 className="font-DynaPuff text-blanco text-2xl">Desarrolladora web full stack mercadologa y publicidad</h2>
                 </div>
                 <div className="font-DynaPuff rounded-xl flex flex-col text-blanco bg-rosado hover:bg-blanco hover:text-rosado w-fit p-3 self-center my-6 shadow-blanco shadow-lg">
-                        <a href='/src/assets/hv-LilyCastillo.pdf' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center self-center'>
+                        <a href='/src/assets/hv Lily Castillo Español.pdf' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center self-center'>
                                 <p className="font-DynaPuff">Descarga el Resume o CV</p> 
                                 <ImDownload className='mt-2 animate-bounce'/>
                         </a>
