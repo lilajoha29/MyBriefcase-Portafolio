@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col text-center m-auto pt-5 justify-center items-center sm:col-span-2 ">
           <h1 className="font-DynaPuff text-rosado text-2xl lg:text-4xl">Lily Johana</h1>
           <h1 className="font-DynaPuff text-rosado text-2xl lg:text-4xl">Castillo Forero</h1>
-          <h2 className="font-DynaPuff text-blanco lg:text-xl">Soy desarrollador full stack.<br></br>Este sitio web es parte de mi progreso.</h2>
+          <h2 className="font-DynaPuff text-blanco lg:text-xl">Soy desarrolladar FronEnd.<br></br>Este sitio web es parte de mi progreso.</h2>
           {/* <h2 className="font-DynaPuff text-blanco lg:text-xl">I'am full stack developer.<br></br>   This website is part of my progress</h2> */}
         </div>
         <div className='flex justify-center items-center'>

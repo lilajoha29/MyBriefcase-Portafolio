@@ -18,7 +18,7 @@ export const Skills = () => {
         <div className='my-5 md:mx-2'>
             <h2 className="font-DynaPuff text-rosado text-2xl flex flex-row m-1 pb-3 lg:text-3xl">Skills <GiBrain className='m-1 animate-pulse hover:animate-ping'/></h2>
             <div className='grid grid-cols-3 mx-5 gap-3 animate-pulse'>
-                <SiHtml5 className='text-blanco text-2xl animate-pulse' />
+                <SiHtml5 alt="Html5" className='text-blanco text-2xl animate-pulse' />
                 <SiCss3 className='text-blanco text-2xl animate-pulse'/>
                 <SiJavascript className='text-blanco text-2xl animate-pulse'/>
                 <SiTailwindcss className='text-blanco text-2xl animate-pulse'/>  
@@ -62,6 +62,7 @@ export const Skills = () => {
           <p className='font-DynaPuff text-blanco'>Comunicación asertiva</p>
           <p className='font-DynaPuff text-blanco'>Solucion de conflictos</p>
           <p className='font-DynaPuff text-blanco'>Trabajo en equipo</p>
+          <p className='font-DynaPuff text-blanco'>Orientación a el detalle</p>
         </div>
       </div>
     </div>
