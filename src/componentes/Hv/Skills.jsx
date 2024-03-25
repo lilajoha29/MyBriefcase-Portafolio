@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiLinkedin, SiGithub, SiWhatsapp, SiGmail, SiGooglemaps, SiHtml5, SiTailwindcss, SiCss3, SiJavascript, SiTrello, SiFigma, SiNodedotjs, SiReact, SiMongodb, SiMysql} from "react-icons/si";
+import { SiLinkedin, SiGithub, SiWhatsapp, SiGmail, SiGooglemaps, SiHtml5, SiTailwindcss, SiCss3, SiJavascript, SiTrello, SiFigma, SiNodedotjs, SiReact, SiMongodb, SiMysql, SiNextdotjs} from "react-icons/si";
 import {GiBrain, GiFruitTree, GiChatBubble, GiDiscussion, GiCrosshairArrow} from "react-icons/gi";
 
 export const Skills = () => {
@@ -27,6 +27,7 @@ export const Skills = () => {
                 <SiFigma className='text-blanco text-2xl animate-pulse'/>
                 <SiNodedotjs className='text-blanco text-2xl animate-pulse'/>
                 <SiReact className='text-blanco text-2xl animate-pulse'/>
+                <SiNextdotjs className='text-blanco text-2xl animate-pulse'/>
                 <SiMongodb className='text-blanco text-2xl animate-pulse'/>
                 {/* <p className='font-DynaPuff text-blanco'>Express</p> */}
                 <SiMysql className='text-blanco text-2xl animate-pulse'/>  

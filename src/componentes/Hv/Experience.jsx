@@ -12,20 +12,19 @@ export const Experience = () => {
 
                 {/* experiencia Muvy */}
                 <div className=' py-3 sm:py-5'>
-                    <p className="font-DynaPuff text-pastel flex flex-col text-right lg:text-lg">Muvy:</p>
-                    <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right lg:text-lg">Aplicación para trasporte</p><br />
+                    <p className="font-DynaPuff text-pastel flex flex-col text-right lg:text-lg">SHARKTECHNOLOGY-Engineers:</p>
+                    <p className="font-DynaPuff text-blanco text-sm flex flex-col text-right lg:text-lg">Consultoría y desarrollo de tecnología Blockchain</p><br />
                     <ul>
                       <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">
-                      - Proyecto primera versión FrontEnd
+                      - Proyectos en FrontEnd
                       </li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Manejo de FrontEnd en Next.js</li>
+                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Diseño de interfaz</li>
+                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Manejo de FrontEnd en Next.js y React.js</li>
+                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Creación de roles</li>
+                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Integración de apis</li>
                       <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Estilos con Tailwind-Css</li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Creación de 3 roles (Conductor, Usuario y Administrador)</li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Enlace a llamadas al teléfono</li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Activación manual por parte del conductor para recibir ofertas</li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Activación manual por parte del administrador a cualquier otro rol</li>
                       <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Interfaz de usuario, web dinámica, ajustable y responsivo</li>
-                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Página para recepción de clientes y la empresa.</li>
+                      <li className="font-DynaPuff text-blanco text-sm flex flex-col text-left ">- Metodología Scrum.</li>
                     </ul>    
                 </div>
             {/* experiencia educamas */}
